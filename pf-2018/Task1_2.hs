@@ -2,7 +2,7 @@ module Task1_2 where
 
 import Todo(todo)
 
--- синус числа (формула Тейлора)
+-- синус числа  (формула Тейлора)
 sin :: Double -> Double
 sin x = todo
 
