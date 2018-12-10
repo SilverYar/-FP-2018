@@ -5,8 +5,8 @@ import Todo(todo)
 data Term = IntConstant{ intValue :: Int }           -- числовая константа
             | Variable{ varName :: String }          -- переменная
             | BinaryTermAdd{ lBinaryTermAdd :: Term, rBinaryTermAdd :: Term } -- бинарная операция сложения
-			| BinaryTermDif{ lBinaryTermDif :: Term, rBinaryTermDif :: Term } -- бинарная операция вычитания
-			| BinaryTermMul{ lBinaryTermMul :: Term, rBinaryTermMul :: Term } -- бинарная операция умножения
+	    | BinaryTermDif{ lBinaryTermDif :: Term, rBinaryTermDif :: Term } -- бинарная операция вычитания
+	    | BinaryTermMul{ lBinaryTermMul :: Term, rBinaryTermMul :: Term } -- бинарная операция умножения
             deriving(Show,Eq)
 
 -- Для бинарных операций необходима не только реализация, но и адекватные
